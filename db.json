@@ -1,6 +1,86 @@
 {
-    "task": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ]
-   
-  }
+  "calendarTask": [
+    {
+      "id": 1,
+      "day": 15,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "meeting",
+          "importance": "hide",
+          "time": "9:00",
+          "duration": "30"
+        },
+        {
+          "id": 2,
+          "title": "get meat",
+          "importance": "hide",
+          "time": "9:00",
+          "duration": "30"
+        },
+        {
+          "id": 3,
+          "title": "defrost the refrigerator",
+          "importance": "average",
+          "time": "10:00",
+          "duration": "30"
+        },
+        {
+          "id": 4,
+          "title": "json-server",
+          "importance": "low",
+          "time": "11:00",
+          "duration": "30"
+        },
+        {
+          "id": 5,
+          "title": "json-server",
+          "importance": "low",
+          "time": "18:00",
+          "duration": "30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "day": 16,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "go out",
+          "importance": "hide",
+          "time": "9:00",
+          "duration": "30"
+        },
+        {
+          "id": 2,
+          "title": "get milk",
+          "importance": "hide",
+          "time": "9:00",
+          "duration": "30"
+        },
+        {
+          "id": 3,
+          "title": "defrost the refrigerator",
+          "importance": "average",
+          "time": "10:00",
+          "duration": "30"
+        },
+        {
+          "id": 4,
+          "title": "json-server",
+          "importance": "low",
+          "time": "11:00",
+          "duration": "30"
+        },
+        {
+          "id": 5,
+          "title": "json-server",
+          "importance": "low",
+          "time": "18:00",
+          "duration": "30"
+        }
+      ]
+    }
+  ]
+}

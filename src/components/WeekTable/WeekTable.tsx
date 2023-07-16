@@ -5,8 +5,8 @@ Settings.defaultLocale = "en";
 
 const WeekTable = () => {
     const datanow = DateTime.now();
+    console.log(datanow);
     const startOfWeek = DateTime.now().startOf('week');
-    console.log()
     const daysOfWeek = [];
     const daysOfMonth = [];
     for (let i = 0; i < 7; i++) {
