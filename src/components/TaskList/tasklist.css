@@ -1,0 +1,79 @@
+.li-task {
+  list-style: none;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.time-work {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+}
+.block-task {
+  margin-left: 25px;
+}
+.tasklist-hours {
+  width: 240px;
+  height: 750px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.low {
+  border-left: 4px solid green;
+  padding: 5px;
+  background-color: rgba(187, 187, 187, 0.116);
+  border-radius: 10px;
+}
+.average {
+  border-left: 3px solid rgb(216, 180, 0);
+  padding: 5px;
+  background-color: rgba(187, 187, 187, 0.116);
+  border-radius: 10px;
+}
+
+.hide {
+  border-left: 3px solid red;
+  padding: 5px;
+  background-color: rgba(187, 187, 187, 0.116);
+  border-radius: 10px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.duration-style {
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.increment-button,
+.decrement-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.increment-button:hover,
+.decrement-button:hover {
+  background-color: #e0e0e0;
+}
+
+.increment-button:focus,
+.decrement-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
